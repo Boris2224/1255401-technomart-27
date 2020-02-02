@@ -12,23 +12,24 @@
       <a>
         <img src="img/logo-small.png" width="220" height="47" alt="Логотип магазина «Техномарт»">
       </a>
-      <form>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <h2 class="visually-hidden">Поиск по сайту</h2>
         <input type="search" name="search" placeholder="Поиск:">
       </form>
-      
+
       <p>Закладки:0</p>
       <p>Корзина:0</p>
-      <button type="button">Оформить заказ</button>
+      <a href="#">Оформить заказ</a>
     </div>
     <div class="header-middle">
-      <p>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
+      <h1>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</h1>
       <div class="info">
         <p>+7 (812) 555-05-55</p>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div class="account">
-        <button type="button">Войти</button>
-        <button type="button">Регистрация</button>
+        <a href="">Войти</a>
+        <a href="">Регистрация</a>
       </div>
     </div>
     <nav>
@@ -45,7 +46,7 @@
   </header>
   <main>
     <section>
-      <h2>Услуги</h2>
+      <h2 class="visually-hidden">Виды товара</h2>
       <div class="materials">
         <h4>Материалы</h4>
         <a href="#">На любой вкус </a>
@@ -65,8 +66,8 @@
         <p>Дрели</p>
         <p>Соседям на радость!</p>
         <a href="catalog.html">Открыть каталог</a>
-        <button type="button" arial-label="arrow-left"></button>
-        <button type="button" arial-label="arrow-right"></button>
+        <button type="button"></button>
+        <button type="button"></button>
       </div>
       <div class="sale">
         <h4>Скидки 50%</h4>
@@ -87,53 +88,53 @@
       <div class="popular-items">
         <ul>
           <li>
-            <h5>
-              <a href="#">
+            <a href="#">
+              <h5>
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 9000</span>
-              </a>
-            </h5>
-            <a href="">
-              <img src="img/product-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
+              </h5>
+              <p>
+                <img src="img/product-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
+              </p>
             </a>
             <p>32500 Р.</p>
             <button type="button">25500 Р.</button>
           </li>
           <li>
-            <h5>
-              <a href="#">
+            <a href="#">
+              <h5>
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 3000</span>
-              </a>
-            </h5>
-            <a href="">
-              <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+              </h5>
+              <p>
+                <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+              </p>
             </a>
             <p>22500 Р.</p>
             <button type="button">15500 Р.</button>
           </li>
           <li>
-            <h5>
-              <a href="#">
+            <a href="#">
+              <h5>
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 6000</span>
-              </a>
-            </h5>
-            <a href="">
-              <img src="img/product-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+              </h5>
+              <p>
+                <img src="img/product-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+              </p>
             </a>
             <p>30500 Р.</p>
             <button type="button">25500 Р.</button>
           </li>
           <li>
-            <h5>
-              <a href="#">
+            <a href="#">
+              <h5>
                 <span>Перфоратор BOSCH</span>
                 <span>BFG 2000</span>
-              </a>
-            </h5>
-            <a href="">
-              <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+              </h5>
+              <p>
+                <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+              </p>
             </a>
             <button type="button">12500 Р.</button>
           </li>
@@ -213,6 +214,19 @@
           неплохо
           заработаем,<br>поднимая его на ваш этаж!</p>
       </div>
+      <div class="info-guarantees">
+        <p>Гарантия</p>
+        <p>Если купленный у нас товар поломается или заискрит,<br>
+          а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы
+          обменяем сгоревший товар на новый.<br>
+          Дом уж восстановите как-нибудь сами.</p>
+      </div>
+      <div class="info-credit">
+        <p>Кредит</p>
+        <p>Залезть в долговую яму стало проще!<br>
+          Кредитные консультанты придут вам на помощь.</p>
+        <a href="#">Отправить заявку</a>
+      </div>
     </section>
     <div class="about-us">
       <section>
@@ -234,9 +248,45 @@
         <h3>Контакты</h3>
         <p>Вы можете забрать товар сами,<br>заехав в наш офис:</p>
         <a href="#">
-          <img src="img/map.png" width="300" height="158" alt="карта проезда">
+          <img src="img/map-small.png" width="300" height="158"
+            alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
         </a>
+        <div class="map-big">
+          <h2 class="visually-hidden">
+            Как до нас добраться
+          </h2>
+          <p>
+            <img src="img/map-big.png" width="940" height="446"
+              alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+          </p>
+          <button type="button">
+            Закрыть
+          </button>
+        </div>
         <a href="#">Заблудились? Напишите нам!</a>
+        <div class="write-us">
+          <form method="post" action="https://echo.htmlacademy.ru">
+            <p>
+              <label for="name-field">Ваше имя:</label>
+              <input type="text" id="name-field" placeholder="Имя Фамилия" required>
+            </p>
+            <p>
+              <label for="email-field">Ваш e-mail:</label>
+              <input id="email-field" type="email" name="email" placeholder="email@example.com" required>
+            </p>
+            <p>
+              <label for="textarea">Текст письма:</label>
+              <textarea id="textarea" placeholder="В свободной форме" required></textarea>
+            </p>
+            <button type="submit">
+              Отправить
+            </button>
+            <button type="button">
+              Закрыть
+            </button>
+          </form>
+
+        </div>
       </section>
     </div>
   </main>
