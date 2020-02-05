@@ -16,15 +16,14 @@
         <h2 class="visually-hidden">Поиск по сайту</h2>
         <input type="search" name="search" placeholder="Поиск:">
       </form>
-  
-      <p>Закладки:0</p>
-      <p>Корзина:0</p>
+      <a href="#">Закладки:0</a>
+      <a href="#">Корзина:0</a>
       <a href="#">Оформить заказ</a>
     </div>
     <div class="header-middle">
       <h1>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</h1>
       <div class="info">
-        <p>+7 (812) 555-05-55</p>
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div class="account">
@@ -63,11 +62,25 @@
         <img src="img/icons/icon-technic.svg" width="78" height="62" alt="Техника для стройки">
       </div>
       <div class="slider">
-        <p>Дрели</p>
-        <p>Соседям на радость!</p>
+        <ul>
+          <li>
+            <p>Перфораторы</p>
+            <p>Настоящие мужские игрушки</p>
+          </li>
+          <li>
+            <p>Дрели</p>
+            <p>Соседям на радость!</p>
+          </li>
+        </ul>
         <a href="catalog.html">Открыть каталог</a>
-        <button type="button"></button>
-        <button type="button"></button>
+        <div class="slider-arrows">
+          <button type="button" aria-label="стрелка назад"></button>
+          <button type="button" aria-label="стрелка вперед"></button>
+        </div>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <input type="radio" name="slide-switch-1" aria-label="переключатель слайда">
+          <input type="radio" name="slide-switch-2" aria-label="переключатель слайда" checked>
+        </form>
       </div>
       <div class="sale">
         <h4>Скидки 50%</h4>
@@ -88,55 +101,63 @@
       <div class="popular-items">
         <ul>
           <li>
-            <a href="#">
-              <h5>
-                <span>Перфоратор BOSCH</span>
-                <span>BFG 9000</span>
-              </h5>
-              <p>
-                <img src="img/product-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
-              </p>
-            </a>
-            <p>32500 Р.</p>
-            <button type="button">25500 Р.</button>
+            <h5>
+              <p>Перфоратор BOSCH</p>
+              <p>BFG 9000</p>
+            </h5>
+            <p>
+              <img src="img/product-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
+            </p>
+            <span>32500 Р.</span>
+            <span>25500 Р.</span>
+            <div class="hover-item">
+              <a href="">купить</a>
+              <a href="">в закладки</a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <h5>
-                <span>Перфоратор BOSCH</span>
-                <span>BFG 3000</span>
-              </h5>
-              <p>
-                <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
-              </p>
-            </a>
-            <p>22500 Р.</p>
-            <button type="button">15500 Р.</button>
+            <h5>
+              <p>Перфоратор BOSCH</p>
+              <p>BFG 3000</p>
+            </h5>
+            <p>
+              <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+            </p>
+            <span>22500 Р.</span>
+            <span>15500 Р.</span>
+            <div class="hover-item">
+              <a href="">купить</a>
+              <a href="">в закладки</a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <h5>
-                <span>Перфоратор BOSCH</span>
-                <span>BFG 6000</span>
-              </h5>
-              <p>
-                <img src="img/product-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
-              </p>
-            </a>
-            <p>30500 Р.</p>
-            <button type="button">25500 Р.</button>
+            <h5>
+              <p>Перфоратор BOSCH</p>
+              <p>BFG 6000</p>
+            </h5>
+            <p>
+              <img src="img/product-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+            </p>
+            <span>30500 Р.</span>
+            <span>25500 Р.</span>
+            <div class="hover-item">
+              <a href="">купить</a>
+              <a href="">в закладки</a>
+            </div>
           </li>
           <li>
-            <a href="#">
-              <h5>
-                <span>Перфоратор BOSCH</span>
-                <span>BFG 2000</span>
-              </h5>
-              <p>
-                <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
-              </p>
-            </a>
-            <button type="button">12500 Р.</button>
+            <h5>
+              <p>Перфоратор BOSCH</p>
+              <p>BFG 2000</p>
+            </h5>
+            <p>
+              <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+            </p>
+            <span>12500 Р.</span>
+            <div class="hover-item">
+              <a href="">купить</a>
+              <a href="">в закладки</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -199,13 +220,13 @@
       </div>
       <ul>
         <li>
-          <button type="button">Доставка</button>
+          <a href="">Доставка</a>
         </li>
         <li>
-          <button type="button">Гарантия</button>
+          <a href="">Гарантия</a>
         </li>
         <li>
-          <button type="button">Кредит</button>
+          <a href="">Кредит</a>
         </li>
       </ul>
       <div class="info-delivery">
@@ -251,42 +272,7 @@
           <img src="img/map-small.png" width="300" height="158"
             alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
         </a>
-        <div class="map-big">
-          <h2 class="visually-hidden">
-            Как до нас добраться
-          </h2>
-          <p>
-            <img src="img/map-big.png" width="940" height="446"
-              alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-          </p>
-          <button type="button">
-            Закрыть
-          </button>
-        </div>
         <a href="#">Заблудились? Напишите нам!</a>
-        <div class="write-us">
-          <form method="post" action="https://echo.htmlacademy.ru">
-            <p>
-              <label for="name-field">Ваше имя:</label>
-              <input type="text" id="name-field" placeholder="Имя Фамилия" required>
-            </p>
-            <p>
-              <label for="email-field">Ваш e-mail:</label>
-              <input id="email-field" type="email" name="email" placeholder="email@example.com" required>
-            </p>
-            <p>
-              <label for="textarea">Текст письма:</label>
-              <textarea id="textarea" placeholder="В свободной форме" required></textarea>
-            </p>
-            <button type="submit">
-              Отправить
-            </button>
-            <button type="button">
-              Закрыть
-            </button>
-          </form>
-
-        </div>
       </section>
     </div>
   </main>
@@ -305,7 +291,8 @@
         </ul>
       </div>
       <div class="second-line">
-        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55</p>
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <ul>
           <li><a href="#">Материалы</a></li>
           <li><a href="#">Техника</a></li>
@@ -316,13 +303,11 @@
     </div>
     <div class="footer-bottom">
       <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
-      <div class="social">
-        <ul>
-          <li><a href="#">Вконтакте</a></li>
-          <li><a href="#">Фейсбук</a></li>
-          <li><a href="#">Инстаграм</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li><a href="#" aria-label="Вконтакте"></a></li>
+        <li><a href="#" aria-label="Фейсбук"></a></li>
+        <li><a href="#" aria-label="Инстаграм"></a></li>
+      </ul>
       <div class="contact-us">
         <p>Обратная связь:<br>
           <a href="#">mail@htmlacademy.ru</a></p>
@@ -331,6 +316,36 @@
       </div>
     </div>
   </footer>
+  <div class="modal modal-write-us">
+    <form method="post" action="https://echo.htmlacademy.ru">
+      <p>
+        <label for="name-field">Ваше имя:</label>
+        <input type="text" id="name-field" placeholder="Имя Фамилия" required>
+      </p>
+      <p>
+        <label for="email-field">Ваш e-mail:</label>
+        <input id="email-field" type="email" name="email" placeholder="email@example.com" required>
+      </p>
+      <p>
+        <label for="textarea">Текст письма:</label>
+        <textarea id="textarea" placeholder="В свободной форме" required></textarea>
+      </p>
+      <button type="submit">
+        Отправить
+      </button>
+      <button type="button" aria-label="закрыть окно"></button>
+    </form>
+  </div>
+  <div class=" modal modal-map">
+    <h2 class="visually-hidden">
+      Как до нас добраться
+    </h2>
+    <p>
+      <img src="img/map-big.png" width="940" height="446"
+        alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+    </p>
+    <button type="button" aria-label="закрыть окно"></button>
+  </div>
 </body>
 
 </html>
