@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,8 +19,8 @@
                 <input type="search" name="search" placeholder="Поиск:">
             </form>
             <a href="#">Закладки:0</a>
-            <a href="#">Корзина:10</a>
-            <a href="#">Оформить заказ</a>
+            <a class="cart-not-empty"href="#">Корзина:10</a>
+            <a class="order-button" href="#">Оформить заказ</a>
         </div>
         <div class="header-middle">
             <h1>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</h1>
@@ -30,8 +33,10 @@
                     <a href="#">Равшан Джамшутович</a>
                     <a href="index.html" aria-label="Выйти из аккаунта"></a>
                 </div>
-                <a href="#">мои заказы</a>
-                <a href="#">личный кабинет</a>
+                <div class="account-data">
+                <a href="#">Мои заказы</a>
+                <a href="#">Личный кабинет</a>
+             </div>
             </div>
         </div>
         <nav>
