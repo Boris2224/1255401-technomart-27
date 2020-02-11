@@ -315,9 +315,9 @@ a {
   background-color: #f7f3ec;
 }
 
-.items-filter label {
-  font-size: 15px;
-  line-height: 20px;
+.filter-input:disabled + label {
+  color: #000000;
+  opacity: 0.4;
 }
 
 .items-filter .show-button {
@@ -408,7 +408,7 @@ a {
 }
 
 /*Карточка товара при взаимодействии*/
-.hover-item .hover-item-card {
+.action-item .action-item-card {
   display: none;
   font-size: 14px;
   text-align: center;
@@ -417,33 +417,33 @@ a {
   border-radius: 2px;
 }
 
-.hover-item .buy-button {
+.action-item .buy-button {
   background-color: #63a63e;
   border-bottom: solid 3px #367315;
   color: #ffffff;
 }
 
-.hover-item .buy-button:hover,
-.hover-item .buy-button:focus {
+.action-item .buy-button:hover,
+.action-item .buy-button:focus {
   background-color: #5fbb2d;
 }
 
-.hover-item .buy-button:active {
+.action-item .buy-button:active {
   background-color: #518534;
   border: none;
 }
 
-.hover-item .bookmark-button {
+.action-item .bookmark-button {
   border: solid 3px #63a63e;
   color: #32425c;
 }
 
-.hover-item .bookmark-button:hover,
-.hover-item .bookmark-button:focus {
+.action-item .bookmark-button:hover,
+.action-item .bookmark-button:focus {
   border-color: #32425c;
 }
 
-.hover-item .bookmark-button:active {
+.action-item .bookmark-button:active {
   border-color: #32425c;
   opacity: 0.3;
 }
