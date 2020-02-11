@@ -87,12 +87,15 @@ a {
 }
 
 .main-header input:hover,
-.main-header input:focus,
 .main-header .flag-link:hover,
 .main-header .flag-link:focus,
 .main-header .cart-link:hover,
 .main-header .cart-link:focus {
   background-color: #212a3a;
+}
+
+.main-header input:focus {
+  background-color: #ffffff;
 }
 
 .main-header .flag-link:active,
