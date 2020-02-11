@@ -32,13 +32,13 @@
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p class="header-info-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
-      <div class="account">
+      <div class="header-account">
         <a class="account-link" href="">Войти</a>
         <a class="account-link" href="">Регистрация</a>
       </div>
     </div>
     <nav class="header-navigation">
-      <ul>
+      <ul class="site-navigation">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Компания</a></li>
         <li><a href="catalog.html">Каталог</a></li>
@@ -54,29 +54,29 @@
       <h2 class="visually-hidden">Виды товара</h2>
       <div class="first-row-service">
         <div class="materials">
-          <span class="materials-title">Материалы</span>
-          <a class="item-type" href="#">На любой вкус </a>
+          <span class="service-caption">Материалы</span>
+          <a class="service-link" href="#">На любой вкус </a>
           <img src="img/icons/icon-materials.svg" width="44" height="65" alt="Материалы">
         </div>
         <div class="tools">
-          <span class="materials-title">Инструмент</span>
-          <a class="item-type" href="#">На все случаи </a>
+          <span class="service-caption">Инструмент</span>
+          <a class="service-link" href="#">На все случаи </a>
           <img src="img/icons/icon-tools.svg" width="75" height="61" alt="Инструмент">
         </div>
         <div class="technic">
-          <span class="materials-title">Техника</span>
-          <a class="item-type" href="#">Для стройки</a>
+          <span class="service-caption">Техника</span>
+          <a class="service-link" href="#">Для стройки</a>
           <img src="img/icons/icon-technic.svg" width="78" height="62" alt="Техника для стройки">
         </div>
       </div>
       <div class="second-row-service">
         <div class="slider">
           <ul class="slider-list">
-            <li>
+            <li class="slider-item slide-1">
               <span class="slider-title">Перфораторы</span>
               <p class="slider-slogan">Настоящие мужские игрушки</p>
             </li>
-            <li>
+            <li class="slider-item slide-2">
               <span class="slider-title">Дрели</span>
               <p class="slider-slogan">Соседям на радость!</p>
             </li>
@@ -92,20 +92,20 @@
           </form>
         </div>
         <div class="sale">
-          <span class="materials-title">Скидки 50%</span>
-          <a class="item-type" href="#">На 350 товаров</a>
+          <span class="service-caption">Скидки 50%</span>
+          <a class="service-link" href="#">На 350 товаров</a>
           <img src="img/icons/icon-sale.svg" width="59" height="72" alt="Распродажа">
         </div>
         <div class="delivery">
-          <span class="materials-title">Доставка</span>
-          <a class="item-type" href="#">Бесплатно</a>
+          <span class="service-caption">Доставка</span>
+          <a class="service-link" href="#">Бесплатно</a>
           <img src="img/icons/icon-delivery.svg" width="78" height="63" alt="Доставка">
         </div>
       </div>
     </section>
     <section>
       <div class="popular">
-        <h3>Популярные товары:</h3>
+        <p class="caption">Популярные товары:</p>
         <a class="main-buttons" href="#">Все популярные товары</a>
       </div>
       <div class="products-container">
@@ -173,8 +173,9 @@
       </div>
     </section>
     <section>
+      <h2 class="visually-hidden">Популярные производители техники для стройки</h2>
       <div class="popular">
-        <h3>Популярные производители:</h3>
+        <p class="caption">Популярные производители:</p>
         <a class="main-buttons" href="#">Все производители</a>
       </div>
       <div class="popular-brands-container">
@@ -223,8 +224,9 @@
       </div>
     </section>
     <section class="features-service-container">
+      <h2 class="visually-hidden">Девиз нашей компании</h2>
       <div class="info-article-container service-article">
-        <h3>Сервисы</h3>
+        <p class="caption">Сервисы</p>
         <p class="service-desc">Хороший интернет-магазин отличается от плохого не только ценами!<br>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       </div>
@@ -262,7 +264,8 @@
     </section>
     <div class="info-aside-container">
       <section>
-        <h3>Компания «Техномарт»</h3>
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <p class="caption">Компания «Техномарт»</p>
         <p class="service-desc">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
           строительства не
           оставит
@@ -279,7 +282,8 @@
         <a class="main-buttons" href="#">подробнее о компании</a>
       </section>
       <section>
-        <h3>Контакты</h3>
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <p class="caption">Контакты</p>
         <p class="service-desc">Вы можете забрать товар сами,<br>заехав в наш офис:</p>
         <a href="#">
           <img src="img/map-small.png" width="300" height="158"
@@ -317,9 +321,9 @@
     <div class="footer-aside">
       <p>&copy; 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
       <ul class="footer-list footer-social-list">
-        <li class="social-list-item"><a href="#" aria-label="Вконтакте"></a></li>
-        <li class="social-list-item"><a href="#" aria-label="Фейсбук"></a></li>
-        <li class="social-list-item"><a href="#" aria-label="Инстаграм"></a></li>
+        <li class="social-item"><a href="#" aria-label="Вконтакте"></a></li>
+        <li class="social-item"><a href="#" aria-label="Фейсбук"></a></li>
+        <li class="social-item"><a href="#" aria-label="Инстаграм"></a></li>
       </ul>
       <div class="footer-contacts">
         <p>Обратная связь:<br>
