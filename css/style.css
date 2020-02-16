@@ -52,7 +52,10 @@ a {
 /*Шапка сайта*/
 
 .header {
-  background-color: #f3f7f8;
+  background-color: #f4f8f9;
+  background-image: url("../img/service-bg-pattern.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
 .main-navigation {
@@ -961,10 +964,6 @@ body {
 .catalog-category,
 .catalog-item-title {
   margin: 0;
-}
-
-.index-products-container {
-  margin-bottom: 20px;
 }
 
 .popular-brands-list {
