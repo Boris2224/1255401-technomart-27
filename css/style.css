@@ -671,6 +671,18 @@ a {
 }
 
 /*подвал*/
+
+.footer-logo {
+  width: 220px;
+  height: 63px;
+  background-color: #ee3643;
+  box-shadow: 0px 5px 0 0 #b52933;
+  display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+
 .footer-list {
   list-style: none;
 }
@@ -805,13 +817,28 @@ body {
 
       /* Временно для сетки */
   min-height: 320px;
-
   }
 
   .header-logo {
     width: 220px;
-    height: 47px;
+    height: 42px;
+    background-color: #ee3643;
+    box-shadow: 0px 5px 0 0 #b52933;
+    display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   }
+
+  .header-logo:hover {
+   background-color: #ca2c37;
+   box-shadow: 0px 5px 0 0 #9a212a;
+  }
+  
+  .header-logo:active {
+    background-color: #ba2732;
+    box-shadow: 0px 5px 0 0 #8e1e26;
+   }
 
   .main-navigation {
     display: flex;
