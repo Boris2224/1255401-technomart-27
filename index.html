@@ -13,14 +13,12 @@
 
 <body>
   <header class="header">
-    <h1 class="visually-hidden">Главная</h1>
-    <nav class="main-header">
       <div class="main-navigation">
         <div class="container">
           <a class="header-logo">
             <img src="img/logo-technomart.svg" width="108" height="19" alt="Логотип магазина «Техномарт»">
           </a>
-          <div class="user-wrapper">
+          <nav class="user-wrapper">
       <form method="get" action="https://echo.htmlacademy.ru">
         <label class="visually-hidden" for="search-field">Поиск по сайту</label>
         <input type="search" id="search-field" name="search" placeholder="Поиск:">
@@ -28,9 +26,10 @@
       <a class="link flag-link" href="#">Закладки:0</a>
       <a class="link cart-link" href="#">Корзина:0</a>
       <a class="link order-link" href="#">Оформить заказ</a>
+    </nav>
+   </div>
     </div>
-    </div>
-    </div>
+    <div class="container">
     <div class="header-info">
       <p class="site-title">Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p>
       <div class="header-contacts">
@@ -51,9 +50,10 @@
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Контаткты</a></li>
       </ul>
-    </nav>
+      </div>
   </header>
   <main class="main-container">
+    <h1 class="visually-hidden">Главная</h1>
     <section class="wrapper-service">
       <div class="container">
       <h2 class="visually-hidden">Виды товара</h2>
@@ -109,7 +109,7 @@
           <a class="service-link" href="#">Бесплатно</a>
           <img src="img/icons/icon-delivery.svg" width="78" height="63" alt="Доставка">
         </div>
-        </div>
+       </div>
       </div>
       </div>
     </section>
@@ -242,8 +242,8 @@
       </div>
     </section>
     <section class="features-service-container">
-      <div class="container">
       <h2 class="visually-hidden">Девиз нашей компании</h2>
+      <div class="container">
       <div class="info-article-container service-article">
         <p class="caption">Сервисы</p>
         <p class="service-desc">Хороший интернет-магазин отличается от плохого не только ценами!<br>
