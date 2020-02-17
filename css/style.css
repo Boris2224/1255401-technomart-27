@@ -253,11 +253,24 @@ a {
 }
 
 /*Основная часть сайта*/
-
-.first-row-service,
-.second-row-service {
+.wrapper-service .container {
   display: flex;
   justify-content: space-between;
+  }
+
+.first-service-column {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  
+  margin-bottom: 20px;
+  }
+
+.second-service-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
   margin-bottom: 20px;
 }
@@ -269,12 +282,12 @@ a {
 .type-of-service {
   width: 300px;
   height: 123px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
-.second-row-service .container-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.second-service-column .type-of-service {
+  margin-right: 0;
 }
 
 .service-caption {
@@ -327,6 +340,11 @@ a {
   padding: 0;
 
   list-style: none;
+}
+
+.slider {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .slider-item {
