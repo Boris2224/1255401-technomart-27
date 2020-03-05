@@ -2412,6 +2412,11 @@ li:first-child a {
   margin: 0;
 }
 
+.modal-map-window iframe {
+  border: 0;
+  overflow: hidden;
+}
+
 .modal-cart-success {
   position: fixed;
 
