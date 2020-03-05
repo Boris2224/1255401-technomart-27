@@ -230,6 +230,22 @@ input[type="search"]::-webkit-search-results-decoration {
   color: #ffffff;
 }
 
+.search::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.search::-moz-placeholder {
+  color: #ffffff;
+}
+
+.search:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.search::-ms-input-placeholder {
+  color: #ffffff;
+}
+
 .search::placeholder {
   color: #ffffff;
 }
@@ -2476,10 +2492,33 @@ li:first-child a {
   cursor: pointer;
 }
 
-@keyframes shake {
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes shake {
   0%,
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 
   10%,
@@ -2487,19 +2526,17 @@ li:first-child a {
   50%,
   70%,
   90% {
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
 
   20%,
   40%,
   60%,
   80% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
-}
-
-.modal-error {
-  animation: shake 0.6s;
 }
 
 .modal-map-window {
@@ -2516,4 +2553,15 @@ li:first-child a {
 
 .modal-show {
   display: block;
+}
+
+.modal-show-form {
+  display: block;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s;
+}
+
+.modal-error {
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
 }

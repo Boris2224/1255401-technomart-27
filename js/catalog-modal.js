@@ -1,5 +1,4 @@
  /*модальное окно : добавление в корзину*/
- 
 var buyLink = document.querySelectorAll(".buy-button");
   var succesPopup = document.querySelectorAll(".modal-cart-success");
   var succesClose = document.querySelectorAll(".modal-close");
